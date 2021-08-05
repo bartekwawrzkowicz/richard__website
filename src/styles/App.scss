@@ -1,0 +1,33 @@
+$bckg_color:rgba(107, 107, 107, 0.246);
+
+.header {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    background-color: $bckg_color;
+}
+
+.header-main {
+    flex-basis: 30vh;
+}
+
+.main {
+    display: flex;
+    padding: 30px 0;
+    flex-grow: 1;
+}
+
+.main-aside__nav {
+    min-width: 25%;
+}
+
+.main-page__article {
+    flex-grow: 1;
+}
+
+.footer-main {
+    padding: 10px 0;
+    text-transform: uppercase;
+}
