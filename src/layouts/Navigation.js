@@ -1,11 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import '../styles/Navigation.scss';
 
 const list = [
-    { name: "start", path: "/" },
-    { name: "opis", path: "/article" },
+    { name: "home", path: "/", exact: true },
+    { name: "rysiopis", path: "/article" },
     { name: "kontakt", path: "/contact" },
-    { name: "panel admina", path: "/admin" }
+    { name: "panel ryszarda", path: "/richard" }
 ];
 
 
@@ -13,14 +14,14 @@ const list = [
 const Navigation = () => {
 
     const menu = list.map(item => (
-        <li key={item.name}>
-            <NavLink to={item.path}>{item.name}</NavLink>
+        <li className="nav-list__item" key={item.name}>
+            <NavLink to={item.path} exact={item.exact ? item.exact : false}>{item.name}</NavLink>
         </li>
     ))
 
     return (
-        <nav>
-            <ul>
+        <nav className="nav">
+            <ul className="nav-list">
                 {menu}
             </ul>
         </nav>

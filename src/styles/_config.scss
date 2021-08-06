@@ -1,6 +1,6 @@
-$font_style:('https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&display=swap');
-$bckg_color: rgba(230, 248, 197, 0.616);
-$font_color: #222;
+$font_style:('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+$bckg_color: rgb(0, 0, 0);
+$font_color: #ffffff;
 
 * {
     margin: 0;
@@ -11,8 +11,7 @@ $font_color: #222;
 html {
     background-color: $bckg_color;
     font-style: $font_style;
-    font-family: 'Vollkorn SC', serif;
-    text-align: center;
+    font-family: 'PT Sans', sans-serif;
     font-size: 20px;
     color: $font_color;
 }

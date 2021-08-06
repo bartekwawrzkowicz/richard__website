@@ -16,7 +16,7 @@ function App() {
           <aside className="main-aside__nav">
             {<Navigation />}
           </aside>
-          <section className="main-page__article">
+          <section className="main-page">
             {<Page />}
           </section>
         </main>

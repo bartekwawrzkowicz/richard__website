@@ -1,0 +1,39 @@
+$font_color: #ffffff;
+$font_color_active: #bd91f0f8;
+$font_color_black: #000000;
+
+.contact textarea {
+    font-size: 1rem;
+    width: 80%;
+    min-width: 400px;
+    min-height: 200px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.contact-header {
+    color: $font_color_active;
+    text-transform: uppercase;
+}
+
+.contact-btn {
+    display: block;
+    margin: auto;
+    color: $font_color;
+    background-color: $font_color_active;
+    border: 2px solid $font_color;
+    min-width: 100px;
+    min-height: 40px;
+    font-size: 1rem;    
+    text-transform: uppercase;
+    border-radius: 15%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.contact-btn:hover {
+    color: $font_color_black;
+    border: 2px solid $font_color_active;
+    transition: .5s;
+}
+

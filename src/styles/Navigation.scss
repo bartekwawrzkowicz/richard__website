@@ -1,0 +1,31 @@
+$font_color: #ffffff;
+$font_color_active: #bd91f0f8;
+
+.nav {
+    padding: 0 30px 30px 0;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 120%;
+    font-weight: 600;
+    color: $font_color;
+    padding: 10px;
+    transition: .5s;
+}
+
+.nav-list a:hover {
+    transform: translateX(10px);
+}
+
+.nav-list a.active {
+    border-left: 8px solid $font_color_active;
+    color: $font_color_active;
+    transform: translateX(0);
+}
