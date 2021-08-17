@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/richard__website/static/css/main.7f22e3e9.chunk.css",
+    "main.js": "/richard__website/static/js/main.177d9fb2.chunk.js",
+    "main.js.map": "/richard__website/static/js/main.177d9fb2.chunk.js.map",
+    "runtime-main.js": "/richard__website/static/js/runtime-main.920273e5.js",
+    "runtime-main.js.map": "/richard__website/static/js/runtime-main.920273e5.js.map",
+    "static/js/2.deafbe2b.chunk.js": "/richard__website/static/js/2.deafbe2b.chunk.js",
+    "static/js/2.deafbe2b.chunk.js.map": "/richard__website/static/js/2.deafbe2b.chunk.js.map",
+    "index.html": "/richard__website/index.html",
+    "static/css/main.7f22e3e9.chunk.css.map": "/richard__website/static/css/main.7f22e3e9.chunk.css.map",
+    "static/js/2.deafbe2b.chunk.js.LICENSE.txt": "/richard__website/static/js/2.deafbe2b.chunk.js.LICENSE.txt",
+    "static/media/codeodrive - logo.f4ed6238.png": "/richard__website/static/media/codeodrive - logo.f4ed6238.png",
+    "static/media/gif1.59ab767c.gif": "/richard__website/static/media/gif1.59ab767c.gif",
+    "static/media/gif2.03702ce2.gif": "/richard__website/static/media/gif2.03702ce2.gif",
+    "static/media/img1.aee14205.jpeg": "/richard__website/static/media/img1.aee14205.jpeg",
+    "static/media/img2.3619f208.jpeg": "/richard__website/static/media/img2.3619f208.jpeg",
+    "static/media/img3.f5ae7391.jpeg": "/richard__website/static/media/img3.f5ae7391.jpeg",
+    "static/media/img4.1f9d4441.jpeg": "/richard__website/static/media/img4.1f9d4441.jpeg",
+    "static/media/img5.490a027d.jpeg": "/richard__website/static/media/img5.490a027d.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.920273e5.js",
+    "static/js/2.deafbe2b.chunk.js",
+    "static/css/main.7f22e3e9.chunk.css",
+    "static/js/main.177d9fb2.chunk.js"
+  ]
+}
